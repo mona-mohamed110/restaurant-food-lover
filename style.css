@@ -1,0 +1,197 @@
+*{
+    margin: 0%;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* start header */
+header{
+    height: 100vh;
+    background: url(img/home_bg2.jpeg) center center/cover no-repeat ;
+}
+#navbar{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#navbar img{
+    width: 80px;
+    margin-left: 100px;
+}
+#navbar nav ul {
+    display: flex;
+    margin-right: 100px;
+
+}
+#navbar ul li {
+    list-style: none;
+}
+#navbar ul li a{
+    padding: 20px 20px;
+    font-weight: 300;
+}
+header .content{
+    display: flex;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    justify-content: center;
+    height: 75vh;
+    flex-direction: column;
+
+}
+#navbar ul li a:hover{
+    border-bottom: 3px solid orange;
+}
+header .content h1 {
+    color: white;
+    /* font-weight: 00; */
+    font-size: 44px;
+    text-align: center;
+}
+header .content p{
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+
+}
+.food{
+    color: orange;
+    padding-right: 10px;
+
+}
+.book{
+    padding: 15px 30px;
+    border:1px solid  #fff;
+    border-radius: 15px;
+}
+.book:hover{
+    background: orange;
+}
+/* end header */
+/* start about */
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about .title {
+    text-align: center;
+    padding: 30px;
+
+    /* background: red; */
+    /* font-size: 26px;
+    margin-bottom: 20px;
+    color: #383848; */
+}
+#about h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #383848;
+
+}
+#about .title p{
+    color: #847680;
+    font-weight: 600;
+
+}
+#about .about-content {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+#about .about-content img{
+    width: 450px;
+}
+#about .about-content p{
+    color: #847680;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-right: 7rem;
+
+}
+.learn{
+    background: black;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    /* background: black; */
+    margin: 2rem;
+}
+.learn:hover{
+    background: orange;
+}
+/* end about */
+/* start off */
+#offers{
+    background: url(img/offer-background.jpg) center center/cover fixed;
+}
+#offers .off{
+    text-align: center;
+    padding: 50px;
+}
+#offers .off h3{
+    font-size: 50px;
+    color: yellow;
+    font-weight: 600;
+    line-height: 1.6px;
+    padding: 40px;
+}
+#offers .off p{
+    color: white;
+    font-size: 17px;
+}
+#offers .offf{
+    display: flex;
+    padding-top: 40px;
+    align-items: center;
+    margin-left: 70px;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    /* line-height: 10px; */
+}
+#offers h2{
+    /* color:#383848 ; */
+    line-height: 1.6px;
+    padding: 30px;
+}
+#offers .offf p{
+    /* color: #383848; */
+    line-height: 23.6px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+#offers .offf p .dolar{
+    color: yellow;
+    padding: 10px;
+    font-size: 20px;
+}
+/*end off */
+#menu .me{
+    text-align: center;
+    padding: 30px;
+}
+#menu h4{
+    font-size: 40px;
+    padding: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:#383848;
+}
+#menu .me p{
+    font-size: 17px;
+    color:#847680;
+    /* padding: 10px; */
+    font-weight: 600;
+    /* letter-spacing: 0.5px; */
+
+
+    
+}
+
